@@ -1,14 +1,10 @@
 ### AFL Elo Model
 
-The Elo model is a method for calculating the relative ability of competing teams or players. Created by Hungarian-American chess master and physicist Arpad Elo, I have adapted it from chess for AFL. It is useful as a baseline predictor of AFL matches.
+The Elo model is a method for calculating the relative ability of competing teams or players. Created by Hungarian-American chess master and physicist Arpad Elo, I have adapted it from chess for AFL. It is useful as a baseline predictor of AFL matches, however lacks some contextual information to make informed predictions.
 
 
 
-Instead of predicating a teams quality based on a ladder or quantity of wins, my model takes into account the quality of opposition. It is a zero-sum system, so the amount of elo Team A loses from a game = the amount of elo Team B gains from winning that game. 
-
-
-
-Losing to lesser teams carries a greater penalty to one's team than losing to equal or greater opposition. The home team gains a temporary pre-match Elo of 50, to represent the home ground advantage. Elo somewhat resets from one year to another, retaining 0.67x of their elo at the last point of the previous season, plus ~500. This model has a starting point of the 2012 season, the start of the 18 team era. Therefore anything before that point is irrelevant, as each team assumes an elo of 1500.
+Instead of predicating a teams quality based on a ladder or quantity of wins, my model takes into account the quality of opposition. It is a zero-sum system, so the amount of elo Team A loses from a game = the amount of elo Team B gains from winning that game. Losing to lesser teams carries a greater penalty to one's team than losing to equal or greater opposition. The home team gains a temporary pre-match Elo of 50, to represent the home ground advantage. Elo somewhat resets from one year to another, retaining 0.67x of their elo at the last point of the previous season, plus ~500. This model has a starting point of the 2012 season, the start of the 18 team era. Therefore anything before that point is irrelevant, as each team assumes an elo of 1500.
 
 
 
