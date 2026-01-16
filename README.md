@@ -1,6 +1,6 @@
 ### AFL Elo Model
 
-The Elo model is a method for calculating the relative ability of competing teams or players. Created by Hungarian-American chess master and physicist Arpad Elo, I have adapted it from chess for AFL.
+The Elo model is a method for calculating the relative ability of competing teams or players. Created by Hungarian-American chess master and physicist Arpad Elo, I have adapted it from chess for AFL. It is useful as a baseline predictor of AFL matches.
 
 
 
