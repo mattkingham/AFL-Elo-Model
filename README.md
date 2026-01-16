@@ -21,16 +21,8 @@ $$
 The model also takes margin of victory into account, with greater wins rewarding the victor with a larger elo increase. This is defined by the following (in this case K = 20):
 
 $$
-
-K \\cdot
-
-\\frac{(\\text{margin} + 1)^{0.8}}
-
-{7.5 + 0.006 \\cdot \\lvert E\_{\\text{home}} - E\_{\\text{away}} \\rvert}
-
+K \\cdot\\frac{(\\text{margin} + 1)^{0.8}}{7.5 + 0.006 \\cdot \\lvert E\_{\\text{home}} - E\_{\\text{away}} \\rvert}
 $$
-
-
 
 The model creates a ladder for the 2026 season, predicting Brisbane Lions to finish top and go undefeated with 23 wins. This is unsurprising as following their big GF win, their Elo is far larger than any other team.
 
