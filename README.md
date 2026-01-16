@@ -15,9 +15,7 @@ Losing to lesser teams carries a greater penalty to one's team than losing to eq
 Elo is calculated using the following formula:
 
 $$
-
 E\_A = \\frac{1}{1 + 10^{(R\_B - R\_A)/400}}
-
 $$
 
 The model also takes margin of victory into account, with greater wins rewarding the victor with a larger elo increase. This is defined by the following (in this case K = 20):
